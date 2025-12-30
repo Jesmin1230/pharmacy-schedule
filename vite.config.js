@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/pharmacy-schedule/', // <--- THIS LINE IS THE FIX
+  base: '/pharmacy-schedule/', 
 })
